@@ -2,13 +2,13 @@
 Requires python 3.6 or higher
 
 ## Directory Structure
-The structure of the games folder is 
-    - GameName
-    |- *.dbxgl
-    |- dosbox-x.conf 
+The structure of the games folder is as follows.  
+    - GameName  
+    |- *.dbxgl  
+    |- dosbox-x.conf  
 
 ## Per Game Config
-The .dbxgl file needs to be placed next to the per game dosbox config with these options set
+The .dbxgl file needs to be placed next to the per game dosbox config with the following options set.
 ```ini
 [Game]
 Name = {GameName}
