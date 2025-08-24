@@ -69,7 +69,7 @@ def main():
     games_list_num.append(0)
     games_list_os = []
     games_list_os.append("Exit")
-    game_path = Path(games_path).glob('**/*.dbxgl')
+    game_path = sorted(Path(games_path).glob('**/*.dbxgl'))
     game_num = 1
     for path in game_path:
         gameconfig = configparser.ConfigParser()
